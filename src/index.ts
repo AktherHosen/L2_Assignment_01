@@ -25,8 +25,8 @@
   function concatenateArrays<T>(...arrays: T[][]): T[] {
     let concatenatedArr: T[] = [];
 
-    for (const i of arrays) {
-      concatenatedArr.push(...i);
+    for (const index of arrays) {
+      concatenatedArr.push(...index);
     }
 
     return concatenatedArr;
