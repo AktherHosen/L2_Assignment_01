@@ -56,7 +56,7 @@ const employee: Employee = {
   salary: 80000
 };
 
-console.log(employee);
+
 
 
 ```
