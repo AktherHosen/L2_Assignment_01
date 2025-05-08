@@ -33,3 +33,30 @@ wheel: '4 wheel'
 ### Intersection
 
 Intersection types are used when you want to combine multiple types into one. A variable with an intersection type must satisfy all the types it intersects. You can think of intersection types as an "AND" between types.
+
+### Example of Intersection
+
+```bash
+interface Person {
+  name: string;
+  age: number;
+}
+
+interface Worker {
+  jobTitle: string;
+  salary: number;
+}
+
+type Employee = Person & Worker;
+
+const employee: Employee = {
+  name: "Md Akther Hosen",
+  age: 20,
+  jobTitle: "Jr. Web Developer",
+  salary: 80000
+};
+
+console.log(employee);
+
+
+```
