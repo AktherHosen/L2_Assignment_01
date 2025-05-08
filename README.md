@@ -9,8 +9,8 @@ Enums make code easier to read by using clear names instead of random numbers or
 
 ```bash
 enum Status{
-    Active,
-    Inactive
+    Active="active",
+    Inactive="inactive",
 }
 const userStatus:Status = Status.Active;
 
