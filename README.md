@@ -1,13 +1,11 @@
-
 ### What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
 
 ### Enums
+
 Enums in TypeScript are used to define a set of named constants. Enums make code more readable and maintainable by giving friendly names to sets of numeric or string values. Enums are especially useful when dealing with a fixed set of options—like days of the week, directions, user roles, etc.
 Enums make code easier to read by using clear names instead of random numbers or strings. TypeScript lets us use both numbers and strings in enums.
 
-
 ### Example of Enums
-
 
 ```bash
 enum Status{
@@ -17,9 +15,9 @@ enum Status{
 const userStatus:Status = Status.Active;
 
 enum Direction {
-  North,   
-  East,   
-  South, 
+  North,
+  East,
+  South,
   West
 }
 
@@ -84,8 +82,5 @@ const employee: Employee = {
   jobTitle: "Jr. Web Developer",
   salary: 80000
 };
-
-
-
 
 ```
