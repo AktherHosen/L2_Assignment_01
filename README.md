@@ -32,7 +32,7 @@ wheel: '4 wheel'
 
 ### Intersection
 
-Intersection types are used when you want to combine multiple types into one. A variable with an intersection type must satisfy all the types it intersects. You can think of intersection types as an "AND" between types.
+Intersection types are used when you want to combine multiple types into one. A variable with an intersection type must satisfy all the types it intersects. We can think of intersection types as an "AND" between types. That means we have to intersect every property of both types
 
 ### Example of Intersection
 
